@@ -65,3 +65,40 @@ canvas {
   padding: 8px 34px;
   font-size: larger;
 }
+
+.start button:hover {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+.start button:active {
+  -webkit-transform: scale(0.85);
+          transform: scale(0.85);
+}
+
+.score {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 10;
+}
+
+.score h2 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  margin-top: 8px;
+  font-size: large;
+}
