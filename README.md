@@ -8,4 +8,6 @@ How high can you go??
    *  Have fun!
 
 
+The array blocks will speed up left and right as you progress. You were warned...
+
 This game is full functioning on all mobile divices and computer browsers ;)
